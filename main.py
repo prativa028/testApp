@@ -1,6 +1,6 @@
 import openai
 
-openai.api_key = "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"
+openai.api_key = str(input())
 model_engine = "text-davinci-003"
 prompt = str(input())
 
